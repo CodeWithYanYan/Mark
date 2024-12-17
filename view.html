@@ -31,7 +31,7 @@
                     <img class="account-icon" src="person.png" alt="logout">
                 </div>
                 
-                <a href="index.html"><button class="logout-button" id="logOut"><img src="logout.png" alt="">Log out</button></a>
+                <a class="aaa" href="index.html"><button class="logout-button" id="logOut"><img src="logout.png" alt="">Log out</button></a>
             </div>
         </header>
 
@@ -67,9 +67,9 @@
                     <!-- Your form goes here -->
                     <form class="d-flex row-gap-3 flex-column p-3" id="userInformation">
                         <input class="form-control" type="hidden" id="id">
-                        <input class="form-control" type="text" id="userId" placeholder="User ID">
-                        <input class="form-control" type="text" id="userName" placeholder="Username">
-                        <input class="form-control" type="text" id="password" placeholder="Password">
+                        <input class="form-control h-100" type="text" id="userId" placeholder="User ID">
+                        <input class="form-control h-100" type="text" id="userName" placeholder="Username">
+                        <input class="form-control h-100" type="text" id="password" placeholder="Password">
                         <button class="btn btn-primary w-100" type="button" onclick="updateData()">Update</button>
                         <div class="bg-primary-subtle text-center rounded-1" id="result"></div>
                     </form>
@@ -134,8 +134,8 @@ function populateTable() {
             <td>${user.userName}</td>
             <td>${user.password}</td>
             <td>
-                <button class="btn btn-primary btn-sm" onclick="editUser(${index})">Edit</button>
-                <button class="btn btn-danger btn-sm" onclick="deleteUser(${index})">Delete</button>
+                <button class="update-button" onclick="editUser(${index})"><img src="pencil.png" alt=""></button>
+                <button class="delete-button" onclick="deleteUser(${index})"><img src="trash-can.png" alt=""></button>
             </td>
         `;
         tableBody.appendChild(row);
