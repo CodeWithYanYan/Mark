@@ -1,0 +1,83 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 80%;
+
+    margin: 40px 0 0 0;
+    background-color: rgb(54, 54, 61);
+    border-radius: 10px 10px 0 0;
+    border: none;
+}
+
+.data-table-accounts {
+    background-color: rgb(227, 247, 250);
+}
+
+.table-title{
+    width: 100%;
+    background-color: rgb(54, 54, 61);
+    border-radius: 3px 3px 0 0;
+}
+
+.table-details {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.table-title tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 2px 1px rgba(54, 54, 61, 0.521);
+}
+
+.table-title tr td{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    width: 100%;
+    font-weight: 600;
+    color:  rgb(54, 54, 61);
+}
+
+.table-title th {
+    color: rgb(219, 219, 219);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Update Button */
+
+.update-button {
+    background-color: rgb(41, 101, 153);
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.update-button img {
+    height: 65%;
+}
+
+/* Delete Button */
+
+.delete-button  {
+    background-color: rgb(2, 50, 92);
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+}
+
+.delete-button img {
+    height: 65%;
+}

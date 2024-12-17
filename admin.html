@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert Data with PDO</title>
+    <link rel="icon" type="image" href="logo.png">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="homepage-body.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="user-header.css">
+    <link rel="stylesheet" href="user-index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+    <!-- Main Header -->
+    <div class="header-container">
+        <header>
+          <div class="option-container">
+            <div class="logo">
+              <img src="logo.png" alt="Logo">
+            </div>
+            <ul>
+              <a href="homepage.html"><li class="non-highlight-button">HOME</li></a>
+              <a href="index.html"><li class="non-highlight-button">USER</li></a>
+              <a href="admin.html"><li class="highlight-button">ADMIN</li></a>
+            </ul>
+          </div>
+        </header>
+        
+        <!-- Input Section -->
+        <div class="main-input-container">
+            <div class="img-container">
+                <img src="admin listening people.jpg" alt="">
+            </div>
+            <div class="input-container">
+                <div class="input-container-details">
+                    <h1>Admin Account</h1>
+                    <div class="input-information">
+                      <form id="userForm" class="user-form">
+                        <div class="form-container">
+                          <label for="userName"></label>
+                          <input type="text" class="form-control" id="userName" name="userName" placeholder="User Name" required><br>
+
+                          <label for="password"></label>
+                          <input type="password" class="form-control" id="password" name="password" placeholder="Password" required><br>
+                        </div>  
+                        <div class="submit-button">
+                          <button type="submit" id="button"><img src="next.png"></button>
+                        </div>
+                      </form> 
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Main footer -->
+    <footer>
+        <div class="footer-container">
+          <div class="credit-container">
+            <div class="footer-logo">
+              <img src="logo.png" alt="Logo">
+            </div>
+            <p>MebMusic Software Incorporated</p>
+            <p>WebDesign (2024-2025)</p>
+          </div>
+          <div class="credit-container">
+            <h1>UI - UX Developer: </h1>
+            <div class="credits">
+              <div class="yellow-box"></div><p>Mark Eroll Leonardo Bautista</p>
+            </div>
+          </div>
+          <div class="credit-container">
+            <h1>Contact Us: </h1>
+            <div class="credits">
+              <div class="yellow-box"></div><p>bautistamarkeroll@gmail.com</p>
+            </div>
+            <div class="credits">
+              <div class="yellow-box"></div><p>0956-822-2963</p>
+            </div>
+          </div>
+          <div class="credit-container">
+            <h1>UI Developer Course: </h1>
+            <div class="credits">
+              <div class="yellow-box"></div><p>Bachelor of Science in Information Technology</p>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright &#169 Mebsoft Office Software, All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="admin.js"></script>
+</body>
+</html>
